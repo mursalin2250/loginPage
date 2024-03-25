@@ -52,7 +52,7 @@ input{
 	display: flex;
 	gap: 80px;
 }
- #hide{
+ #hide,#hidebtn,#show,#showbtn{
 	display: none;
 }
 button[type=submit]{

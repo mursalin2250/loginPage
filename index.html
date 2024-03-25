@@ -9,7 +9,7 @@
 </head>
 <body>
 	<div class="main">
-		<h1>LOG IN</h1>
+		<h1>SIGN UP</h1>
 		<div class="form">
 			<legend>Email or phone number</legend>
 			<div class="gmail">
@@ -17,12 +17,18 @@
 			</div>
 			<legend>Password</legend>
 			<div class="password">
-				<input type="password" placeholder="Password" id="pass">
+				<input id="pass" type="password" placeholder="Password" onclick="eye()">
 				<button id="show" onclick="Showbtn()"><i class="fa-regular fa-eye"></i></button>
 				<button id="hide" onclick="Hidebtn()"><i class="fa-regular fa-eye-slash"></i></button>
 			</div>
+			<legend>Confirm password</legend>
+			<div class="password">
+				<input type="password" placeholder="Confirm Password" id="confirm" onclick="Eye()">
+				<button id="showbtn" onclick="show()"><i class="fa-regular fa-eye"></i></button>
+				<button id="hidebtn" onclick="hide()"><i class="fa-regular fa-eye-slash"></i></button>
+			</div>
 		</div>
-			<button type="submit" onclick="message()">Log in</button>
+			<button type="submit" onclick="message()">Sign Up</button>
 	
 	</div>
 
